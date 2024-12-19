@@ -1,0 +1,19 @@
+# Configuration file for dataset loading
+#
+# Define the generic input path
+# Define the relative path for training images
+# Define the relative path for validation images
+# Test path is left blank and will be addressed separately
+#
+# Define the name of the classes for object classification
+# Only one class corresponding to the target is defined
+#
+path: /kaggle/input/enviset-33-fen
+train: images/train_images
+val: images/val_images
+test: 
+
+kpt_shape: [33, 3] # Number of keypoints, variables per keypoint
+
+names: 
+ 0: target # classes
